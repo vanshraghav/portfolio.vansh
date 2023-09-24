@@ -1,0 +1,96 @@
+#Portfolio {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.portfoliotitle {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+.portfoliodesc {
+  font-weight: 200;
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  max-width: 50rem;
+  padding: 0 0rem;
+  letter-spacing: 1.5;
+  line-height: 1.5;
+}
+.product-carousel {
+  position: relative;
+  overflow: hidden;
+  padding-right: 30px;
+  /* background-color: #f9f9f9; */
+  border-radius: 10px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Container */
+.product-container {
+  padding: 0 10px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: thin; /* For Firefox */
+}
+
+/* Hide scrollbar for WebKit (Chrome, Safari) */
+.product-container::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Hide scrollbar for Firefox */
+.product-container {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Individual Card */
+.Mycard {
+  flex: 0 0 auto; /* Prevent card from growing in size */
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.pre-btn,
+.next-btn {
+  border: none;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 59%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pre-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+/* Hover effect for buttons */
+.pre-btn:hover,
+.next-btn:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}

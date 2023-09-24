@@ -1,0 +1,28 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.social-icons a:hover {
+  color: #55acee; /* LinkedIn color */
+}
+
+.social-icons i {
+  vertical-align: middle;
+}
+img {
+  margin-top: 15px;
+}

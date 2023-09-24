@@ -1,0 +1,54 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: rgb(30, 30, 30);
+  height: 5rem;
+  width: 100vw;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.logo {
+  object-fit: cover;
+  height: 3.5rem;
+  width: 4.5rem;
+}
+.desktopMenuListItem {
+  margin: 1.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  top: 0.5rem;
+}
+.desktopMenuListItem:hover {
+  /* color: yellow; */
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+.menu-toggle {
+  display: none; /* Initially hide the toggle button */
+}
+
+/* Add media query for screen width less than 820px */
+@media screen and (max-width: 820px) {
+  .menu-toggle {
+    display: block; /* Show the toggle button */
+  }
+
+  .desktopMenu {
+    display: none; /* Hide the desktop menu by default */
+  }
+
+  /* Show the menu when the "open" class is applied */
+  .navbar.open .desktopMenu {
+    display: block;
+  }
+}

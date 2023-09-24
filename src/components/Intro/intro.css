@@ -1,0 +1,166 @@
+/* Default styles for intro section */
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.Myimage {
+  position: absolute;
+  top: 0;
+  margin-top: 1rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 80vh;
+}
+
+.IntroContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span {
+  margin-bottom: 30px;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+}
+
+.name {
+  color: yellow;
+  font-size: 3rem;
+}
+
+.work {
+  color: yellow;
+  font-size: 3rem;
+}
+
+.intropara {
+  font-size: medium;
+  font-weight: 400;
+  line-height: 1.85rem;
+}
+
+.btn {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1.75rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: black;
+}
+
+.btnimage {
+  object-fit: cover;
+  margin: 0 0.45rem;
+  height: 1rem;
+  padding-top: 0.15rem;
+}
+
+/* Media Query for max-width: 320px */
+@media screen and (max-width: 420px) {
+  #intro {
+    padding: 0.5rem;
+  }
+
+  .Myimage {
+    max-width: 100%; /* Make the image width 100% of the container */
+    height: auto; /* Allow the image to maintain its aspect ratio */
+    max-height: 40vh; /* Set a maximum height to avoid taking up too much space */
+  }
+
+  .IntroContent {
+    font-size: 2rem;
+  }
+
+  .name,
+  .work {
+    font-size: 2.5rem;
+  }
+
+  .intropara {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    text-align: left; /* Center-align the intropara text */
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+}
+
+/* Media Query for max-width: 840px */
+@media screen and (max-width: 840px) {
+  #intro {
+    padding: 1rem;
+  }
+
+  .Myimage {
+    height: 70vh;
+  }
+
+  .IntroContent {
+    font-size: 2.5rem;
+  }
+
+  .name,
+  .work {
+    font-size: 2.8rem;
+  }
+
+  .intropara {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Media Query for min-width: 1350px */
+@media screen and (min-width: 1350px) {
+  #intro {
+    padding: 2rem;
+  }
+
+  .Myimage {
+    height: 90vh;
+  }
+
+  .IntroContent {
+    font-size: 3.5rem;
+  }
+
+  .name,
+  .work {
+    font-size: 4rem;
+  }
+
+  .intropara {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}

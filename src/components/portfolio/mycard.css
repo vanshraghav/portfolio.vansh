@@ -1,0 +1,33 @@
+.mycard {
+  min-width: 600px;
+  max-width: 600px;
+  height: 700px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 2px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  margin-left: 10px;
+  border-radius: 30px;
+  padding: 15px;
+  width: 110%; /* Adjust the width of the image to fit the card */
+  height: 55%; /*Maintain the image's aspect ratio */
+  object-fit: fill; /* Scale the image while preserving its aspect ratio */
+}
+
+.card-heading {
+  margin-top: 10px; /* Adjust the margin between the image and the heading */
+}
+.card-para {
+  margin: 10px;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 1.5;
+}
