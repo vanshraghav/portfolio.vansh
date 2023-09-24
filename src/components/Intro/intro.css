@@ -74,16 +74,16 @@ span {
   padding-top: 0.15rem;
 }
 
-/* Media Query for max-width: 320px */
-@media screen and (max-width: 420px) {
+/* Media Query for max-width: 720px */
+@media screen and (max-width: 720px) {
   #intro {
     padding: 0.5rem;
   }
 
   .Myimage {
-    max-width: 100%; /* Make the image width 100% of the container */
-    height: auto; /* Allow the image to maintain its aspect ratio */
-    max-height: 40vh; /* Set a maximum height to avoid taking up too much space */
+    max-width: 100%;
+    height: auto;
+    max-height: 40vh;
   }
 
   .IntroContent {
@@ -98,7 +98,7 @@ span {
   .intropara {
     font-size: 0.9rem;
     line-height: 1.2;
-    text-align: left; /* Center-align the intropara text */
+    text-align: left;
   }
 
   .btn {
