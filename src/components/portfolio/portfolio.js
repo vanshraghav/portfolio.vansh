@@ -43,6 +43,12 @@ const Imagecarousel = () => {
           link="https://swiftcourier.pythonanywhere.com/"
           desc="This is a fully functional Courier Management System . You can Book , Track , Generate Receipt of your courier . Made with Django and MySQL."
         />
+            <Mycard
+          imgSrc="./12.webp.webp"
+          heading="Daily News and Blogs"
+          link="https://vanshraghav.github.io/SAFAR/"
+          desc="This is a News and Blogs website made for you to be updated with the world all the time. Also developed API endpoints for this website using Django Rest Framework."
+        />
         <Mycard
           imgSrc="./10.webp"
           heading="Safar"
