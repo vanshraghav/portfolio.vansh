@@ -38,6 +38,12 @@ const Imagecarousel = () => {
       </button>
       <div className="product-container">
         <Mycard
+          imgSrc="./11.webp"
+          heading="Swift courier"
+          link="https://swiftcourier.pythonanywhere.com/"
+          desc="This is a fully functional Courier Management System . You can Book , Track , Generate Receipt of your courier . Made with Django and MySQL."
+        />
+        <Mycard
           imgSrc="./10.webp"
           heading="Safar"
           link="https://vanshraghav.github.io/SAFAR/"
