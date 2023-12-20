@@ -46,7 +46,7 @@ const Imagecarousel = () => {
             <Mycard
           imgSrc="./12.webp.webp"
           heading="Daily News and Blogs"
-          link="https://vanshraghav.github.io/SAFAR/"
+          link="https://dailynewsblogs.pythonanywhere.com/"
           desc="This is a News and Blogs website made for you to be updated with the world all the time. Also developed API endpoints for this website using Django Rest Framework."
         />
         <Mycard
